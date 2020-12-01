@@ -23,6 +23,9 @@
             </tr>
         @endforeach
     </table>
+    <br>
+
+    <a href="{{ route('products.create') }}">Add new product</a>
 </div>
 
 </body>

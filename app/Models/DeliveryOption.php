@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class DeliveryOption extends Model
 {
-    protected $fillable = ['name', 'price_modifier'];
+    protected $fillable = ['name', 'price_s', 'price_m', 'price_l', 'price_xl'];
     use HasFactory;
 
     public function getPrice($size) {
